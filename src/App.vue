@@ -1,7 +1,20 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HeroSection from './components/HeroSection.vue'
+</script>
 
 <template>
-  <h1></h1>
+  <header class = "greenBackground">
+    <HeroSection></HeroSection>
+  </header>
+  <main></main>
+  <footer></footer>
 </template>
 
-<style scoped></style>
+<style scoped>
+header{
+  width: 100%;
+  padding-top: 1%;
+  height: 30vh;
+}
+
+</style>
