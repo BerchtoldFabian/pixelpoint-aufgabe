@@ -3,7 +3,7 @@
 <template>
   <section>
     <div>
-      <h1>Veranstaltungen in Kärnten</h1>
+      <h1 class="carinthianFontColor">Veranstaltungen in Kärnten</h1>
     </div>
     <div>
       <p>Veranstaltungen aus ganz Kärnten im Überlick!</p>

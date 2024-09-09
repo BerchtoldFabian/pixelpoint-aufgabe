@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
@@ -7,7 +8,7 @@
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Karte_AT_Kaernten.svg/320px-Karte_AT_Kaernten.svg.png"
       />
-      <p class="subtitle">Kärnter Veranstaltungen</p>
+      <h1 class="carinthianFontColor subtitle">Kärnter Veranstaltungen</h1>
     </div>
 
     <div class="fakeLinks">
