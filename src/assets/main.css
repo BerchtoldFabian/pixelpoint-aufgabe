@@ -1,9 +1,9 @@
 body {
   margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 9000;
   color: white;
   text-align: center;
@@ -12,6 +12,20 @@ h1 {
 
 .greenBackground {
   background-color: rgba(13, 44, 0, 0.925);
+}
+
+.lightGrayBackground {
+  background-color: rgba(202, 199, 199, 0.815);
+}
+
+.shadow{
+ /*Got this shadow config from: https://www.w3schools.com/css/css3_shadows_box.asp*/
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.eventCard{
+  background-color: white;
+  width: 70vw;
 }
 
 .carinthianFontColor {

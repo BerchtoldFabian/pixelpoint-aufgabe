@@ -1,13 +1,17 @@
 <script setup lang="ts">
+import EventsContainer from './components/EventsContainer.vue';
 import FooterSection from './components/FooterSection.vue';
 import HeroSection from './components/HeroSection.vue'
+
 </script>
 
 <template>
   <header class = "greenBackground">
     <HeroSection></HeroSection>
   </header>
-  <main></main>
+  <main class="lightGrayBackground">
+    <EventsContainer></EventsContainer>
+  </main>
   <footer class="greenBackground">
     <FooterSection></FooterSection>
   </footer>
@@ -20,8 +24,10 @@ header{
   height: 30vh;
 }
 
-footer{
-  margin-top: 25%;
+main {
+  padding-top: 1%;
+  padding-bottom: 10%;
 }
+
 
 </style>
