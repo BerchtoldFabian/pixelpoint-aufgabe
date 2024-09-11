@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section>
+  <section class="shadow">
     <div>
       <h1 class="carinthianFontColor">Veranstaltungen in Kärnten</h1>
     </div>
@@ -18,5 +18,9 @@ p {
   font-weight: bold;
   text-align: center;
   line-height: 0;
+}
+
+section{
+  padding-bottom: 1%;
 }
 </style>

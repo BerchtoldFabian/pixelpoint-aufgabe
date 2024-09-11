@@ -18,6 +18,8 @@ onMounted(async () => {
 <template>
 <section>
     <EventListing v-for="event in events" :key="event.name" :event="event" ></EventListing>
+    <i v-if="events.length === 0" class="pi pi-spin pi-cog"></i>
+
 </section>
 </template>
 
@@ -29,6 +31,11 @@ section{
     flex-direction: column;
     align-items: center;
     gap: 25px;
+}
+
+i{
+    font-size: 10rem;
+    color: gray;
 }
 
 </style>
