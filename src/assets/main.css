@@ -34,3 +34,13 @@ h1 {
   background-size: contain;
   background-clip: text;
 }
+
+@media(max-width: 850px) {
+
+h1 {
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+}

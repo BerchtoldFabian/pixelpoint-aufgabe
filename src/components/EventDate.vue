@@ -54,10 +54,10 @@ function areStartAndEndTimeDifferent() {
 
 p {
     text-align: center;
-    line-height: 0.5;
+    line-height: 1;
     font-size: larger;
     margin: 0;
-    padding: 5.5%;
+    padding: 4%;
 }
 
 .eventDateOuter {
@@ -80,6 +80,22 @@ h3{
     border-top: 0;
     margin: 0;
     color: white;
+}
+
+@media (max-width: 850px) {
+    p {
+        font-size: 0.9em;
+        line-height: 1.5;
+        padding: 3%;
+    }
+    .date {
+        font-size: medium;
+    }
+
+    .eventDateOuter {
+        width: 22vw;
+        margin-bottom: 5%;
+    }
 }
 
 

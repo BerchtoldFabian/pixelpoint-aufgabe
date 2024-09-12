@@ -42,4 +42,18 @@ p {
   display: flex;
   gap: 15vw;
 }
+
+img {
+  width: 86%;
+  }
+
+@media(max-width: 850px) {
+  p {
+    font-size: medium;
+  }
+
+  .subtitle {
+    font-size: x-large;
+  }
+}
 </style>

@@ -23,4 +23,11 @@ p {
 section{
   padding-bottom: 1%;
 }
+
+@media (max-width: 850px) {
+  p{
+    font-size: 1em;
+  }
+  
+}
 </style>

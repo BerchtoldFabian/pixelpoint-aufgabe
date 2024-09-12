@@ -26,8 +26,17 @@ header{
 
 main {
   padding-top: 1%;
-  padding-bottom: 10%;
+  padding-bottom: 14vh;
 }
 
+@media (max-width: 850px) {
+  main {
+    padding-bottom: 39vh
+  }
+
+  header {
+    height: 17vh;
+  }
+}
 
 </style>

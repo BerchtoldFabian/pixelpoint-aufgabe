@@ -69,8 +69,8 @@ i:hover {
 }
 
 .description {
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
+    width: 95%;
+    overflow-wrap: anywhere;
 }
 
 .descriptionContainer {
@@ -83,9 +83,9 @@ i:hover {
 h2 {
     font-weight: bolder;
     text-align: center;
-    line-height: 0;
+    line-height: 1;
     margin-bottom: 2%;
-    
+    margin-top: 1%;
 }
 
 img {
@@ -94,5 +94,31 @@ img {
     object-fit: cover;
     margin-left: 0.5vw;
     margin-bottom: 0.3vw;
+}
+
+EventDate{
+    align-self: center;
+}
+
+@media (max-width: 850px){
+    .innerEvent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h2 {
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: medium;
+    line-height: 1.5;
+    
+}
+
+p {
+    font-size: 0.9em;
+}
+
 }
 </style>

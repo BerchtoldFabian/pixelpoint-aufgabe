@@ -9,9 +9,9 @@ const events: Ref<EventData[]> = ref([]);
 const show: Ref<boolean> = ref(false)
 
 onMounted(async () => {
-/*     const data = await fetchDBData()
+    const data = await fetchDBData()
 
-    events.value.push(...data); */
+    events.value.push(...data);
 })
 
 setTimeout(() => show.value = true, 5000 )
@@ -61,6 +61,16 @@ section{
 i{
     font-size: 10rem;
     color: gray;
+}
+
+@media (max-width: 850px) {
+  i{
+    font-size: 5rem;
+  }
+
+  section {
+    padding-top: 2%;
+  }
 }
 
 </style>
