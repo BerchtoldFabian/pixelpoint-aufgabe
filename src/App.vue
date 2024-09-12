@@ -26,12 +26,12 @@ header{
 
 main {
   padding-top: 1%;
-  padding-bottom: 14vh;
+  padding-bottom: 18vh;
 }
 
 @media (max-width: 850px) {
   main {
-    padding-bottom: 39vh
+    padding-bottom: 47vh
   }
 
   header {
